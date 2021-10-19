@@ -75,9 +75,15 @@ body {
   text-decoration: none;
 }
 
+.nav-right ul li a:hover {
+  color: #d59433;
+}
+
 .nav-right ul li:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   transition: all ease 250ms;
+  -webkit-transform: scale(1.05);
+  -webkit-transition: all ease 250ms;
 }
 
 .nav-right ul li:nth-child(n+2) {
