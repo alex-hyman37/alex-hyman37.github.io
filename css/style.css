@@ -97,6 +97,7 @@ body {
   max-width: 200px;
   margin: 15px;
   border-radius: 50%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
 }
 
 .container-title h1 {
@@ -682,7 +683,7 @@ svg {
   .container-card {
     grid-template-columns: repeat(2, 1fr);
     top: 104vh;
-    left: 39vw;
+    left: 40vw;
   }
   .card, .card2, .card3, .card4  {
     position: relative;
