@@ -169,6 +169,8 @@ body {
   color: black;
   transform: scale(1.1);
   transition: all ease-in 350ms;
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all ease-in 350ms;
   font-size: 18px;
   font-weight: 500;
 }
@@ -479,7 +481,6 @@ svg {
 
 .footer {
   position: absolute;
-  /* margin: 0 auto; */
   overflow: visible;
   width: 100%;
   height: 100%;
@@ -499,7 +500,6 @@ svg {
 .contact a{
   width: 100%;
   margin-top: 20px;
-  /* position: absolute; */
   color: #d59433;
   text-decoration: none;
   display: flex;
@@ -583,7 +583,6 @@ svg {
   border-bottom: 4px rgb(233, 233, 233) solid;
   transition: border-width 150ms ease-in-out;
   -webkit-transition: border-width 150ms ease-in-out;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   top: 575px;
