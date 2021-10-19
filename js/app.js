@@ -23,12 +23,6 @@ cards.forEach(card => {
   });
 });
 
-// Smooth scroll
-const scroll = new SmoothScroll('.contact-button a[href*="#"]', {
-  speed: 800
-});
-
-
 
 
 // window.addEventListener('click', event => {
@@ -37,15 +31,4 @@ const scroll = new SmoothScroll('.contact-button a[href*="#"]', {
 //       card.classList.remove('is-flipped');
 //     });
 //   }
-// });
-
-
-
-
-
-// let moreInfo = document.querySelector(".more-info");
-// let card = document.querySelector(".card");
-
-// moreInfo.addEventListener('click', (e) => {
-//   card.classList.toggle('is-flipped');
 // });
