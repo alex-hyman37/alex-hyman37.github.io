@@ -75,6 +75,11 @@ body {
   text-decoration: none;
 }
 
+.nav-right ul li:hover {
+  transform: scale(1.05);
+  transition: all ease 250ms;
+}
+
 .nav-right ul li:nth-child(n+2) {
   padding-left: 20px;
 }
